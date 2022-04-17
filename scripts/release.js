@@ -70,7 +70,7 @@ const doRelease = async version => {
 
   step("\nGenerate changelog...");
   // await ifDryRun('npm', ['run', 'genlog', `-- --release-as ${version}`]);
-  exec(`npm run genlog -- --release-as ${version}`);
+  await exec(`npm run genlog -- --release-as ${version}`);
   await commitChanges(version);
   step("\nPublish package to npm...");
   await ifDryRun("npm", ["publish", "--reg", npmRegistry, "--access=public"]);
