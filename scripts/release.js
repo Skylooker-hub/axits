@@ -3,7 +3,6 @@ const enquirer = require("enquirer");
 const args = require("minimist")(process.argv.slice(2));
 const chalk = require("chalk");
 const semver = require("semver");
-const exec = require('child_process').exec;
 
 const step = msg => console.log(chalk.cyan(msg));
 const execa = require("execa");
@@ -69,8 +68,7 @@ const doRelease = async version => {
   // await ifDryRun(`npm`, ['version', version, '-m', `chore(version): bump version to v${version}`]);
 
   step("\nGenerate changelog...");
-  // await ifDryRun('npm', ['run', 'genlog', `-- --release-as ${version}`]);
-  await exec(`npm run genlog -- --release-as ${version}`);
+  await ifDryRun("npm", ["run", "genlog", `-- --release-as`, version]);
   await commitChanges(version);
   step("\nPublish package to npm...");
   await ifDryRun("npm", ["publish", "--reg", npmRegistry, "--access=public"]);
