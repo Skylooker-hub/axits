@@ -1,6 +1,6 @@
 {
   "name": "@skylooker/axits",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": false,
   "description": "",
   "main": "build/axits.cjs.js",
@@ -41,7 +41,11 @@
     "type": "git",
     "url": "git+https://github.com/Skylooker-hub/axits.git"
   },
-  "keywords": ["axios", "typescript", "axits"],
+  "keywords": [
+    "axios",
+    "typescript",
+    "axits"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
