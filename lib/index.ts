@@ -48,7 +48,7 @@ type APIConfig = RequestPath | RequestOptions;
 type HeaderHandler = (
   config?: AxiosRequestConfig
 ) => Promise<AxiosRequestHeaders>;
-type RequestErrorHandler = (error: AxiosError) => void;
+type RequestErrorHandler = (error: AxiosError) => AxiosError;
 
 type APIType = {
   request: Record<string, any>;
