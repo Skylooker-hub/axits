@@ -1,6 +1,6 @@
 {
   "name": "@huang1997/axits",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "private": false,
   "description": "",
   "main": "build/axits.cjs.js",
@@ -12,8 +12,6 @@
     "dev": "rollup -w -c rollup.config.ts --environment MODE:dev",
     "build": "rollup -c rollup.config.ts --environment MODE:prod",
     "genlog": "standard-version",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
     "release": "node scripts/release.js",
     "test": "jest --coverage=false",
     "test:coverage": "jest"
