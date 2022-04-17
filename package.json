@@ -1,6 +1,6 @@
 {
-  "name": "axits",
-  "version": "0.1.0",
+  "name": "@huang1997/axits",
+  "version": "0.0.1",
   "private": false,
   "description": "",
   "main": "build/axits.cjs.js",
