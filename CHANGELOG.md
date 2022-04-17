@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.2.1](https://github.com/Skylooker-hub/axits/compare/v0.2.0...v0.2.1) (2022-04-17)
 
+
+### ⏪ Revert | 回退
+
+* **OtherChanges:** 回退package 版本号 ([f37713e](https://github.com/Skylooker-hub/axits/commit/f37713e8a405b9147111fcde69f4a7c9e3a22e7b))
+
+### [0.2.1](https://github.com/Skylooker-hub/axits/compare/v0.2.0...v0.2.1) (2022-04-17)
+
 ## [0.2.0](https://github.com/Skylooker-hub/axits/compare/v0.1.11...v0.2.0) (2022-04-17)
 
 ### [0.1.11](https://github.com/Skylooker-hub/axits/compare/v0.1.10...v0.1.11) (2022-04-17)
