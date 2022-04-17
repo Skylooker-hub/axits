@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.10](https://github.com/Skylooker-hub/axits/compare/v0.1.9...v0.1.10) (2022-04-17)
+
+
+### 🚀 tool | 工具升级
+
+* **OtherChanges:** 修改release.js版本管理 ([e68d536](https://github.com/Skylooker-hub/axits/commit/e68d53697c318d6c947be130ab026618fad9a26b))
+
 ## [0.2.0](https://github.com/Skylooker-hub/axits/compare/v0.1.9...v0.2.0) (2022-04-17)
 
 ### [0.1.10](https://github.com/Skylooker-hub/axits/compare/v0.1.9...v0.1.10) (2022-04-17)
